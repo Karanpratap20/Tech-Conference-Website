@@ -2,7 +2,6 @@
 
 ## 🌟 Overview
 Tech Elevate is a fictional Tech Conference website built using **SvelteKit**. It features a modern, responsive design with interactive elements, including a schedule, speaker sections, and an embedded Google Map. 
-
 ## ✨ Features
 ✔ **Fully Responsive Design** – Optimized for all screen sizes.  
 ✔ **Dynamic Navigation** – Smooth scrolling between sections.  
