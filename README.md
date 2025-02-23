@@ -31,11 +31,7 @@ This is a fictional Tech Conference website built using **SvelteKit**. The proje
    npm run dev
    ```
 
-## Deployment
-To build the project for production:
-```sh
-npm run build
-```
+
 
 ## Deployment
 
@@ -48,9 +44,9 @@ This project is deployed using **Netlify**. To deploy your own version:
    - **Build Command:** `pnpm run build`
    - **Publish Directory:** `build`
 5. Click **Deploy Site**.
-```
+
 
  ## Deployment Website Link
 
  Link: [TECHELEVATE](http://techelevate.netlify.app/)
-```
+
