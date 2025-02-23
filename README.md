@@ -1,52 +1,57 @@
-# Tech Conference Website
+# 🚀 Tech Conference Website
 
-## Overview
-This is a fictional Tech Conference website built using **SvelteKit**. The project includes various sections such as speakers, schedule, and an interactive map. A dark mode toggle has also been implemented for better user experience.
+## 🌟 Overview
+Tech Elevate is a fictional Tech Conference website built using **SvelteKit**. It features a modern, responsive design with interactive elements, including a schedule, speaker sections, and an embedded Google Map.
 
-## Features
-- **Responsive Design**: Works across all screen sizes.
-- **Dynamic Navigation**: Smooth scrolling to different sections.
-- **Embedded Google Map**: Displays the conference location.
-- **Mobile-friendly Navbar**: Uses a modal for smaller screens.
+## ✨ Features
+✔ **Fully Responsive Design** – Optimized for all screen sizes.  
+✔ **Dynamic Navigation** – Smooth scrolling between sections.  
+✔ **Interactive Google Map** – Displays the conference location.  
+✔ **Mobile-Friendly Navbar** – Uses a modal for better navigation.  
+✔ **Deployed with Netlify** – Ensuring seamless accessibility.  
 
-## Technologies Used
-- **SvelteKit**
-- **JavaScript**
-- **Google Maps API**
-- **Tailwind CSS**
+## 🛠️ Tech Stack
+🟠 **SvelteKit** – Frontend Framework  
+⚡ **JavaScript** – Core Functionality  
+🎨 **Tailwind CSS** – Styling  
+🌍 **Google Maps API** – Location Integration  
+🚀 **Netlify** – Deployment  
 
-## Installation
+## 📦 Installation & Setup
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/karanpratap20/tech-conference-website.git
-   cd tech-conference-website
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Run the development server:
-   ```sh
-   npm run dev
-   ```
+### 1️⃣ Clone the Repository
 
+```sh
+git clone https://github.com/karanpratap20/tech-conference-website.git
+cd tech-conference-website
+```
 
+### 2️⃣ Install Dependencies
 
-## Deployment
+```sh
+npm install
+```
+
+### 3️⃣ Start the Development Server
+
+```sh
+npm run dev
+```
+
+Your project will be live at **http://localhost:5173/** (or another available port).
+
+## 🚀 Deployment
 
 This project is deployed using **Netlify**. To deploy your own version:
 
-1. Push your project to GitHub.
-2. Sign in to [Netlify](https://www.netlify.com/).
-3. Click **New site from Git** and select your repository.
-4. Configure the build settings:
-   - **Build Command:** `pnpm run build`
-   - **Publish Directory:** `build`
-5. Click **Deploy Site**.
+1. Push your project to GitHub.  
+2. Sign in to [Netlify](https://www.netlify.com/).  
+3. Click **"New site from Git"** and select your repository.  
+4. Configure the build settings:  
+   - **Build Command:** `pnpm run build`  
+   - **Publish Directory:** `build`  
+5. Click **Deploy Site** and you're live! 🚀  
 
-
- ## Deployment Website Link
-
- Link: [TECHELEVATE](http://techelevate.netlify.app/)
+## 🌐 Live Website  
+🔗 **[Tech Elevate](https://techelevate.netlify.app/)**
 
