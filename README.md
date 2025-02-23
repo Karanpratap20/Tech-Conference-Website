@@ -1,38 +1,56 @@
-# sv
+# Tech Conference Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Overview
+This is a fictional Tech Conference website built using **SvelteKit**. The project includes various sections such as speakers, schedule, and an interactive map. A dark mode toggle has also been implemented for better user experience.
 
-## Creating a project
+## Features
+- **Responsive Design**: Works across all screen sizes.
+- **Dynamic Navigation**: Smooth scrolling to different sections.
+- **Embedded Google Map**: Displays the conference location.
+- **Mobile-friendly Navbar**: Uses a modal for smaller screens.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Technologies Used
+- **SvelteKit**
+- **JavaScript**
+- **Google Maps API**
+- **Tailwind CSS**
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Installation
 
-# create a new project in my-app
-npx sv create my-app
-```
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/karanpratap20/tech-conference-website.git
+   cd tech-conference-website
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Run the development server:
+   ```sh
+   npm run dev
+   ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
+## Deployment
+To build the project for production:
+```sh
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## Deployment
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+This project is deployed using **Netlify**. To deploy your own version:
+
+1. Push your project to GitHub.
+2. Sign in to [Netlify](https://www.netlify.com/).
+3. Click **New site from Git** and select your repository.
+4. Configure the build settings:
+   - **Build Command:** `pnpm run build`
+   - **Publish Directory:** `build`
+5. Click **Deploy Site**.
+```
+
+ ## Deployment Website Link
+
+ Link: [TECHELEVATE](http://techelevate.netlify.app/)
+```
