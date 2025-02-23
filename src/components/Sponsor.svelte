@@ -73,7 +73,7 @@
     </h3>
     <div class="scroll-container max-w-[900px] mx-auto w-full py-10">
         <h2 class="text-center text-2xl font-semibold mb-6 text-white">
-            Trusted by the <span class="text-indigo-400">Best</span>, Built for the <span class="text-green-400">Future</span>.
+            Trusted by the <span class="text-indigo-400">Best</span>, for the <span class="text-green-400">Future</span>.
         </h2>
         <div class="scroll-content">
             {#each infiniteSponsors as sponsor}
