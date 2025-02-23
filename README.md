@@ -7,7 +7,8 @@ Tech Elevate is a fictional Tech Conference website built using **SvelteKit**. I
 ✔ **Dynamic Navigation** – Smooth scrolling between sections.  
 ✔ **Interactive Google Map** – Displays the conference location.  
 ✔ **Mobile-Friendly Navbar** – Uses a modal for better navigation.  
-✔ **Deployed with Netlify** – Ensuring seamless accessibility.  
+✔ **Deployed with Netlify** – Ensuring seamless accessibility.
+
 
 ## 🛠️ Tech Stack
 🟠 **SvelteKit** – Frontend Framework  
