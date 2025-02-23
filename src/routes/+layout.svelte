@@ -11,8 +11,13 @@
   $: outerHeight = 0;
 
   function reroute(href) {
-      $openModal = false;
+    $openModal = false;
+    
+    if (window.location.pathname === "/contact") {
+      window.location.href = "/" + href;
+    } else {
       window.location.href = href;
+    }
   }
 </script>
 

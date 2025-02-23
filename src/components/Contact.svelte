@@ -29,18 +29,18 @@
       
           <form on:submit={handleSubmit} class="space-y-4">
             <div>
-              <label class="block text-gray-700 dark:text-gray-300">Name</label>
-              <input bind:value={$name} type="text" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="Your Name" />
+              <label for="name" class="block text-gray-700 dark:text-gray-300">Name</label>
+              <input id="name" bind:value={$name} type="text" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="Your Name" />
             </div>
             <div>
-              <label class="block text-gray-700 dark:text-gray-300">Email</label>
-              <input bind:value={$email} type="email" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="Your Email" />
+              <label for="mail" class="block text-gray-700 dark:text-gray-300">Email</label>
+              <input id="mail" bind:value={$email} type="email" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="Your Email" />
             </div>
             <div>
-              <label class="block text-gray-700 dark:text-gray-300">Message</label>
-              <textarea bind:value={$message} required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white" rows="4" placeholder="Your Message"></textarea>
+              <label for="mess" class="block text-gray-700 dark:text-gray-300">Message</label>
+              <textarea id="mess" bind:value={$message} required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white" rows="4" placeholder="Your Message"></textarea>
             </div>
-            <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg font-semibold">Send Message</button>
+            <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-black py-2 px-4 rounded-lg font-semibold bg-[#181b34]">Send Message</button>
           </form>
         </div>
       </div>
